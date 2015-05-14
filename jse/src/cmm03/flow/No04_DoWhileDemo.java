@@ -1,4 +1,4 @@
-package comm03.flow;
+package cmm03.flow;
 
 public class No04_DoWhileDemo {
 	public static void main(String[] args) {

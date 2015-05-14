@@ -1,4 +1,4 @@
-package comm03.flow;
+package cmm03.flow;
 
 public class No02_IfElseDemo2 {
 	public static void main(String[] args) {
