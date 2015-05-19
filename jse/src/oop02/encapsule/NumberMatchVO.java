@@ -1,4 +1,4 @@
-package oop01.encapsule;
+package oop02.encapsule;
 
 public class NumberMatchVO {
 		private int player, com, count;
