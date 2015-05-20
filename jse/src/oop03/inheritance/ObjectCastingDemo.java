@@ -6,7 +6,7 @@ public class ObjectCastingDemo {
 		Aclass a = new Aclass();
 		Bclass b = new Bclass();
 		
-		// 부모 타입 = new 자식타입   // 부모의 메소드만 사용 가능
+		// 부모 타입 = new 자식타입   // 부모의 메소드와 자식의 메소드를 사용할때 자식 클래스에서 오버라이드 된 메소드를 사용하고자 할때
 		Aclass a2 = new Bclass();  // a2 는 Bclass 를 바라보고 있고, Aclass 와 상속관계여야 하고, B클래스는 A클래스를 포함하고 있다  a2는 B클래스를 먼저 찾고 A를 그다음에 찾는다.
 		// 오버라이딩시 자식클래스 메소드 우선 출력
 		a2.over(1);
